@@ -1,6 +1,6 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { buttonVariants } from "@/components/ui/button";
-import { ArrowDownToLine, CheckCircle, Leaf } from "lucide-react";
+import { ArrowDownToLine, CheckCircle, DollarSign, Leaf } from "lucide-react";
 import Link from "next/link";
 
 const perks = [
@@ -17,6 +17,11 @@ const perks = [
   {
     name: 'What is for?',
     icon: Leaf,
+    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam accusamus voluptatibus aliquam error pariatur!"
+  },
+  {
+    name: 'Best price',
+    icon: DollarSign,
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam accusamus voluptatibus aliquam error pariatur!"
   }
 ]
